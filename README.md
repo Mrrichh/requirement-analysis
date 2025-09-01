@@ -41,3 +41,26 @@ Requirement Analysis consists of several structured activities that help in iden
 - **Requirement Analysis and Modeling**  
   - Analyzing requirements to detect conflicts, redundancies, or ambiguities.  
   - Creating models and diagrams (like **use case diagrams**) to represent system behavior and interactions
+## 📂 Types of Requirements  
+
+In software development, requirements are broadly categorized into **Functional** and **Non-functional** requirements. Both play a critical role in ensuring the system works as expected and meets user needs.  
+
+### ⚙️ Functional Requirements  
+Functional requirements describe **what the system should do** – the core features and capabilities of the application. They define interactions between the system and its users.  
+
+**Examples for the Booking Management System:**  
+- Users should be able to **create accounts** and **log in**.  
+- The system should allow users to **search for available bookings**.  
+- Users should be able to **make, edit, or cancel bookings**.  
+- The system should **send booking confirmations via email/SMS**.  
+- Admins should be able to **manage users, bookings, and availability**.  
+
+### 🛡️ Non-functional Requirements  
+Non-functional requirements describe **how the system performs its functions**. They define quality attributes such as performance, security, usability, and reliability.  
+
+**Examples for the Booking Management System:**  
+- The system should be available **24/7** with at least **99% uptime**.  
+- Average search response time should be **under 2 seconds**.  
+- User data must be **encrypted** and protected against unauthorized access.  
+- The system should support both **desktop and mobile devices**.  
+- The interface should be **intuitive, user-friendly, and accessible** (WCAG compliant).  
