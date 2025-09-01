@@ -64,3 +64,22 @@ Non-functional requirements describe **how the system performs its functions**. 
 - User data must be **encrypted** and protected against unauthorized access.  
 - The system should support both **desktop and mobile devices**.  
 - The interface should be **intuitive, user-friendly, and accessible** (WCAG compliant).  
+## 🎨 Use Case Diagrams  
+
+**Use Case Diagrams** are a type of UML (Unified Modeling Language) diagram that illustrate how users (actors) interact with a system to achieve specific goals.  
+
+### 📌 Benefits of Use Case Diagrams  
+- Provide a **visual overview** of system functionality.  
+- Help identify **actors** (users, admins, external systems) and their interactions with the system.  
+- Simplify communication between stakeholders, developers, and designers.  
+- Serve as a reference point for **requirement validation**.  
+
+### 📂 Booking Management System – Use Case Diagram  
+The diagram below shows the primary actors and their interactions with the booking system.  
+
+**Actors:**  
+- **User** – Creates accounts, logs in, makes/cancels bookings, views booking history.  
+- **Admin** – Manages bookings, user accounts, and system availability.  
+- **System** – Sends confirmations and notifications.  
+
+![Use Case Diagram](alx-booking-uc.png)  
